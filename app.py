@@ -8,5 +8,3 @@ def projects():
     res = make_response(projectsList,200)
     res.headers["Access-control-allow-origin"] = "*"
     return res
-
-app.run()
